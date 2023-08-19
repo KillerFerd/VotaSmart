@@ -45,6 +45,11 @@
     color: white;
 }
 
+.container-1 .card-liga .card-fondo article h3 a{
+    text-decoration: none;
+    color: white;
+}
+
 .container-1 .card-liga .card-fondo article p {
     font-family: 'Sarabun', sans-serif;
     font-size: 18px;

@@ -8,8 +8,9 @@
 @import url(nav.css);
 @import url(footer.css);
 @import url(equipos_liga.css);
-@import url(descript_equipos.css);
 @import url(estiloslogin.css);
+@import url(descript_equipos.css);
+@import url(descript_jugador.css);
 
 body {
   /*Mantener footer abajo*/
