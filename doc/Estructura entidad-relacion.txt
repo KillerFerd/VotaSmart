@@ -1,17 +1,17 @@
 "tabla de torneos"
 torneo 
 [k]id_torneo
-[c]estado                        (Por Iniciar, En Proceso, Finalizado)
-[c]fecha_inicio
-[c]fecha_fin
-[c]fecha_inicio_fase_equipos
-[c]fecha_fin_fase_equipos
-[c]fecha_inicio_cuartos_final    
-[c]fecha_fin_cuartos_final
-[c]fecha_inicio_semifinales
-[c]fecha_fin_seminifinales
-[c]fecha_inicio_final
-[c]fecha_fin_final
+[i]estado                        (Por Iniciar, En Proceso, Finalizado)
+[i]fecha_inicio
+[i]fecha_fin
+[i]fecha_inicio_fase_equipos
+[i]fecha_fin_fase_equipos
+[i]fecha_inicio_cuartos_final    
+[i]fecha_fin_cuartos_final
+[i]fecha_inicio_semifinales
+[i]fecha_fin_seminifinales
+[i]fecha_inicio_final
+[i]fecha_fin_final
 [i]nombre
 
 	"detalle de equipos por terneo"
@@ -27,7 +27,7 @@ torneo
 		[f[id_jugador
 		[i]posicion				(posiciones)
 		[i]numero
-		[c]tipo					(jugador, suplente)
+		[i]tipo					(jugador, suplente)
 		
 		"detalle de tecnicos por equipo y torneo"
 		tecnicoEquipoTorneo
@@ -70,7 +70,7 @@ torneo
 				[f[id_jugador
 				[i]posicion		(posiciones)
 				[i]numero
-				[c]tipo			(jugador, suplente)
+				[i]tipo			(jugador, suplente)
 				[i]goles
 				[i]tarjeta_roja
 				[i]tarjeta_amarilla
@@ -94,7 +94,7 @@ torneo
 "tabla de equipos"
 equipo
 [k]id_equipo
-[c]estado						(activo, inactivo)
+[i]estado						(activo, inactivo)
 [i]nombre
 [i]anio_fundacion
 [i]direccion_oficina
@@ -113,7 +113,7 @@ equipo
 "tabla de jugadores"
 jugador
 [k]id_jugador
-[c]estado
+[i]estado
 [i]nombre
 [i]apellido
 [i]numero
@@ -145,7 +145,7 @@ jugador
 "tabla de tecnicos"
 tecnico
 [k]id_tecnico
-[c]estado						(activo, inactivo)
+[i]estado						(activo, inactivo)
 [i]nombre
 [i]apellido
 [i]anio_nacimiento
@@ -155,7 +155,7 @@ tecnico
 "tabla de árbitros"
 arbitro
 [k]id_arbitro
-[c]estado
+[i]estado
 [i]nombre
 [i]apellido
 [i]anio_nacimiento
