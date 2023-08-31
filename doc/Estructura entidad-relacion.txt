@@ -39,7 +39,7 @@ torneo
 	jornadaTorneo
 	[k]id_jornadaTorneo
 	[f]id_torneo
-	[i]tipo						
+	[i]tipo						(jornada [1-22], cuartos de final, seminifina, final)
 	[i]fecha_inicio
 	[i]fehca_fin
 	
