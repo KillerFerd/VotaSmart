@@ -3,7 +3,7 @@ torneo
 [k]id_torneo
 [i]estado                        (Por Iniciar, En Proceso, Finalizado)
 [i]fecha_inicio
-[i]fecha_fin asdfgh
+[i]fecha_fin
 [i]fecha_inicio_fase_equipos
 [i]fecha_fin_fase_equipos
 [i]fecha_inicio_cuartos_final    
