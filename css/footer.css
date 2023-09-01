@@ -1,158 +1,60 @@
-.footer {
-    width: 100%;
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--primario);
 }
 
-.footer .footerSec1 {
-    /*Estilo del footer 1*/
-    background-color: #235d4b;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .footer .footerSec1 .footerArt1 {
-    /*Contenedor*/
-    margin-left: 5rem;
-  }
-  
-  .footer .footerSec1 .footerArt1 ul {
-    /*Eslilo de la lista*/
-    list-style-type: none;
-  
-    /*Cajon*/
-    margin-top: 0.5rem;
-    margin-bottom: 3rem;
-    padding-left: 0rem;
-  }
-  
-  .footer .footerSec1 .footerArt1 li {
-    /*Estilo del elemento*/
-    text-align: left;
-    /*Contenedor*/
-    margin-top: 2rem;
-    margin: 1rem;
-  }
+footer .opciones{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
 
-  .footer .footerSec1 .footerArt1 .select-footer {
-    /*Estilo del elemento*/
-    text-align: left;
-    text-decoration: underline;
-    text-decoration-color: white;
-    /*Contenedor*/
-    margin-top: 0.5rem;
-  }
-  
-  .footer .footerSec1 .footerArt1 a {
-    /*Estilo del vinculo*/
-    font-family: "Sarabun", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    margin-top: 0.5rem;
-    color: white;
-    text-decoration: none;
-  }
-  
-  .footer .footerSec1 .footerArt1 a:hover {
-    /*Hover del vinculo*/
-    text-decoration: underline;
-    text-decoration-color: white;
-  }
-  
-  .footer .footerSec1 .footerArt1 .selectionFooter {
-    /*Estilo de selección default*/
-    text-decoration: underline;
-    text-decoration-color: white;
-  }
-  
-  .footer .footerSec1 .footerArt2 h3 {
-    /*Estilo del titúlo*/
-    font-family: "Sarabun", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    color: white;
-  
-    /*Contenedor*/
-    margin-top: 3rem;
-    margin-bottom: 0rem;
-  }
-  
-  .footer .footerSec1 .footerArt2 ul {
-    /*Estilo de la lista*/
-    list-style-type: none;
-  
-    /*Contenedor*/
-    margin-top: 0.5rem;
-    padding-left: 0rem;
-    margin-bottom: 7rem;
-  }
-  
-  .footer .footerSec1 .footerArt2 li {
-    /*Estilo del elemento*/
-    text-align: center;
-  
-    /*Contenedor*/
-    margin-top: 0.5rem;
-  }
-  
-  .footer .footerSec1 .footerArt2 a {
-    /*Estilo del vinculo*/
-    font-family: "Sarabun", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    color: white;
-    text-decoration: none;
-  
-    /*Contenedor*/
-    margin-top: 0.5rem;
-  }
-  
-  .footer .footerSec1 .footerArt2 a:hover {
-    /*Hover del vinculo*/
-    text-decoration: underline;
-    text-decoration-color: white;
-  }
-  
-  .footer .footerSec1 .footerArt3{
-    /*Contenedor*/
-    padding-right: 5rem;
-  }
-  
-  .footer .footerSec1 .footerArt3 img {
-    /*Estilo de la img*/
-    width: 120px;
-    height: auto;
-  }
-  
-  .footer .footerSec2 {
-    /*Estilo del footer 2*/
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .footer .footerSec2 .footerArt4 {
-    /*Contenedor*/
-    margin-left: 6rem;
-  }
-  
-  .footer .footerSec2 .footerArt4 h3{
-    /*Estilo del titúlo*/
-    font-family: "Sarabun", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    color: white;
-    margin: 1rem;
-  }
-  
-  .footer .footerSec2 .footerArt5 {
-    /*Contenedor*/
-    margin-right: 3rem;
-  }
-  
-  .footer .footerSec2 .footerArt5 a{
-    /*Contenedor*/
-    margin: 1rem;
-  }
+footer .opciones ul{
+  list-style-type: none;
+  margin-top: 0.5rem;
+}
+
+footer .opciones ul li{
+  margin: 1.5rem;
+}
+
+footer .opciones ul li a{
+  text-decoration: none;
+  color: white;
+  font-family: var(--sarabun);
+}
+
+footer .opciones img{
+  width: 15%;
+  height: auto;
+}
+
+footer .redes{
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+footer .redes p{
+  color: white;
+  font-family: var(--sarabun);
+  font-size: var(--letra-xs);
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+footer .redes .iconos {
+  display: flex;
+  flex-direction: row;
+}
+
+footer .redes .iconos img{
+  margin: 0.5rem;
+}
