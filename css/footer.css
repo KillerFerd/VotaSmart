@@ -29,8 +29,13 @@ footer .opciones ul li a{
   font-family: var(--sarabun);
 }
 
-footer .opciones img{
-  width: 15%;
+footer .opciones .logo {
+  margin: 5px;
+  width: 180px;
+}
+
+footer .opciones .logo img{
+  width: 100%;
   height: auto;
 }
 
