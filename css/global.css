@@ -32,7 +32,7 @@ html {
   --sarabun: "Sarabun", sans-serif;
 
   /* pesos */
-  --regular: var(--regular);
+  --regular: 400;
   --bolt: 700;
 
   /* tamaños */
