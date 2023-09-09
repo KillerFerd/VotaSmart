@@ -7,6 +7,9 @@
 /*Web App Footer*/
 @import url(footer.css);
 
+/*Calendar Nav*/
+@import url(calendarNav.css);
+
 /*Estructuras*/
 @import url(admAgregarArbitroNuevo.css);
 @import url(admAgregarEquipo.css);
