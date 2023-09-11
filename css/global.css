@@ -22,7 +22,8 @@ body{
 .contenido{
   flex: 1;
   /*Margen del contenido de la pagina*/
-  padding: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 /* Variables */
@@ -64,6 +65,11 @@ html {
   height: 150px;
 }
 
+.imagenMediana{
+  width: auto;
+  height: 160px;
+}
+
 .imagenPequenia{
   width: auto;
   height: 80px;
@@ -72,6 +78,11 @@ html {
 .imagenEPequenia{
   width: auto;
   height: 60px;
+}
+
+.imagenPerfil{
+  width: 150px;
+  height: 170px;
 }
 
 /* Textos */

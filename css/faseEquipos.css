@@ -4,6 +4,8 @@
     padding: 0rem;
     display: flex;
     flex-direction: column;
+
+    padding-top: 2rem;
 }
 
 .contenido .contenedorFaseEquipos h1{
