@@ -22,7 +22,7 @@ body{
 .contenido{
   flex: 1;
   /*Margen del contenido de la pagina*/
-  padding: 1.25rem;
+  padding: 3rem;
 }
 
 /* Variables */
@@ -272,4 +272,73 @@ html {
   background-color: var(--seleccion); 
   color: var(--fondo-4);
   transition: 0.5s;
+}
+
+/* Secciones para Calendario */
+.calendarArticle1{
+  margin: 0.5rem;
+  padding: 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.calendarArticle1 .parrafo1Mod{
+  padding-right: 2rem;
+  
+  font-family: var(--sarabun);
+  font-weight: var(--regular);
+  font-size: var(--parrafos-links);
+  color: var(--fondo-3);
+}
+
+.calendarArticle2{
+  margin: 0rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+
+  background-color: var(--fondo-1);
+  border-radius: 12px;
+}
+
+.calendarArticle2 ul{
+  margin: 0rem;
+  padding: 0rem;
+  display: flex;
+  flex-direction: column;
+
+  list-style-type: none;
+  align-items: center;
+}
+
+.calendarArticle2 ul li{
+  margin: 0rem;
+  padding: 0.2rem;
+}
+
+.calendarArticle2 ul li input{
+  text-align: center;
+}
+
+.calendarSection1{
+  margin: 0rem;
+  padding: 0rem;
+
+  align-self: center;
+}
+
+.calendarSection2{
+  margin: 0rem;
+  padding: 0rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.calendarSection2 {
+  margin: 0.5rem;
+  padding: 0rem;
+
+  align-self: center;
 }

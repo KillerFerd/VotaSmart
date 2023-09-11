@@ -2,7 +2,6 @@
 .contenido .contenedorJornadaFaseEquipos {
     margin: 0rem;
     padding: 0rem;
-    margin-top: 1rem;
     display: flex;
     flex-direction: column;
 }
@@ -12,50 +11,4 @@
     padding: 0rem;
 
     align-self: center;
-}
-
-.contenido .contenedorJornadaFaseEquipos section .article2{
-    margin: 0rem;
-    padding: 1rem;
-    display: flex;
-    flex-direction: row;
-
-    background-color: var(--fondo-1);
-    border-radius: 12px;
-}
-
-.contenido .contenedorJornadaFaseEquipos section .article2 ul{
-    margin: 0rem;
-    padding: 0rem;
-    display: flex;
-    flex-direction: column;
-
-    list-style-type: none;
-    align-items: center;
-}
-
-.contenido .contenedorJornadaFaseEquipos section .article2 ul li{
-    margin: 0rem;
-    padding: 0.2rem;
-}
-
-.contenido .contenedorJornadaFaseEquipos section .article2 ul li input{
-    text-align: center;
-}
-
-.contenido .contenedorJornadaFaseEquipos section .article1{
-    margin: 0.5rem;
-    padding: 0rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.contenido .contenedorJornadaFaseEquipos section .article1 .parrafo1Mod{
-    padding-right: 2rem;
-    
-    font-family: var(--sarabun);
-    font-weight: var(--regular);
-    font-size: var(--parrafos-links);
-    color: var(--fondo-3);
 }

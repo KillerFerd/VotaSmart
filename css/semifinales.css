@@ -2,9 +2,7 @@
 .contenido .contenedorSemifinales {
     margin: 0rem;
     padding: 0rem;
+    display: flex;
+    flex-direction: column;
 }
 
-.contenido .contenedorSemifinales yourTags{
-    margin: 0rem;
-    padding: 0rem;
-}
