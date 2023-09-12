@@ -172,6 +172,19 @@ html {
   color: var(--fondo-3);
 }
 
+.listaMediana{
+  border: 2px solid var(--fondo-3); 
+  border-radius: var(--radius);
+  padding-left: 10px; 
+  height: 39px; 
+  width: 262px;
+
+  font-family: var(--sarabun);
+  font-weight: var(--regular);
+  font-size: var(--parrafos-links);
+  color: var(--fondo-3);
+}
+
 .textAreaB{
   border: 2px solid var(--fondo-3); 
   border-radius: var(--radius);
